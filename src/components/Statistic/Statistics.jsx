@@ -14,12 +14,7 @@ export const Statistics = ({ stats, title }) => {
       </li>
     );
   });
-  //   const mark = stats.map(el => {
-  //     `<li key=${el.id} className="item">
-  //       <span className="label">${el.lable}</span>
-  //       <span className="percentage">${el.percentage}</span>
-  //     </li>`;
-  //   });
+ 
   return (
     <section className={style.section}>
       {title ? <h2 className={style.title}>{title}</h2> : null}

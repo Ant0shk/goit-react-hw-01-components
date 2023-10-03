@@ -9,16 +9,7 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101',
-    // }}
-    >
+    <div>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -33,10 +24,3 @@ export const App = () => {
   );
 };
 
-// function getCount(str) {
-//   const pattern = /[aeiou]/gi;
-//   return str.match(pattern).length ? str.match(pattern).length : '0';
-// }
-
-// console.log(getCount('q3gadhr65hx'));
-// console.log(getCount(''));
